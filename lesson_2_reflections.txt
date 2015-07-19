@@ -11,3 +11,14 @@ Also, it let's you double check your work before making the commit.
 Lastly, it lets you save the file in the state you want. When you edit the file again,
 the changes are already saved in the state in the staging area. Only the file
 from the working directory will change.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can do so by Making the change in the working directory. Saving it.
+Add the modified file into the staging area using "git add"
+If you want to continue working on the next feature. You can do so. The staging
+area has not changed.
+
+Remember to double check the difference between the files though.
+Use "git diff" to compare Working repository vs Staging area
+"git diff --staged" to compare Staging area from commit 1
