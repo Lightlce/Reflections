@@ -46,3 +46,22 @@ splitting, all done automatically.
 We want to remember the branches as they each have their own parent commit, albeit
 the commits are merged via time stamp.
 use "git show commit_id" to compare the id with it's parent
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros of automatic merging
+- no need to compare files. git does it for you
+- extremely useful when there are more than a few lines of code changed
+- able to detect conflicts
+
+Cons
+- Git cannot always detect which change is related.
+- need to manually identify the conflict and resolve them
+
+Pros of merging manually
+- you know exactly which lines of code to keep or remove after discussing with
+the partner
+
+Cons
+- very time consuming.
+- human error
