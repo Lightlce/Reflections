@@ -22,3 +22,11 @@ area has not changed.
 Remember to double check the difference between the files though.
 Use "git diff" to compare Working repository vs Staging area
 "git diff --staged" to compare Staging area from commit 1
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+When you are trying out experimental features
+making the app in other languages or marking points of the main branch that is
+the most stable version before making further improvements etc.
+e.g. "git branch backup"
