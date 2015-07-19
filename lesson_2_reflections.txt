@@ -30,3 +30,9 @@ When you are trying out experimental features
 making the app in other languages or marking points of the main branch that is
 the most stable version before making further improvements etc.
 e.g. "git branch backup"
+
+How do the diagrams help you visualize the branch structure?
+
+You can track down the structure by looking at the parents of each commit.
+It reminds us where the different branches are and shows us the reach of each
+branch.
