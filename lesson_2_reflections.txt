@@ -36,3 +36,13 @@ How do the diagrams help you visualize the branch structure?
 You can track down the structure by looking at the parents of each commit.
 It reminds us where the different branches are and shows us the reach of each
 branch.
+
+What is the result of merging two branches together? Why do we represent it in the
+diagram the way we do?
+
+"git merge branch1 branch2"
+Both sets of changes are merged. comparing change A, change B and the original before
+splitting, all done automatically.
+We want to remember the branches as they each have their own parent commit, albeit
+the commits are merged via time stamp.
+use "git show commit_id" to compare the id with it's parent
