@@ -21,3 +21,8 @@ Clones
 Branches
 - a branch off of commits deviating from a master branch.
 - think like alternative version
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can work offline.
+Git status, git commit and git merge all function without going online
