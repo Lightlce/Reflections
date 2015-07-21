@@ -8,3 +8,16 @@ automatically stay up-to-date with your remote repository?
 If you were working on something while someone else pushed his update to github,
 an automatic pull will destroy your work and then update it to that person's
 update. That is not what we want.
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+Forks
+- a copy of a repo on GitHub itself
+
+Clones
+- a copy of a repo on GitHub to a local repo or from local to local
+
+Branches
+- a branch off of commits deviating from a master branch.
+- think like alternative version
