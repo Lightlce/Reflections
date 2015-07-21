@@ -38,3 +38,11 @@ No knowledge of coding required. for general users
 Harder
 Merging different changes together would be near impossible, causing multiple
 conflicts without notice.
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+Experimental changes will be good idea. The key is to leave master in a working
+state and to create branches when new features are added in for approval.
+It makes sure that the master copy is always working and it leaves experimental
+changes to be approved first before merging into master with pull request.
